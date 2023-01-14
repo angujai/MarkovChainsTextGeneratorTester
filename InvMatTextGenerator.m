@@ -1,8 +1,24 @@
 %#ok<*SAGROW> 
 clear
+
+
+% ---------------------------------------------------------------------
+% PARAMETERS
+% ---------------------------------------------------------------------
+
+% textLength: Length of the generated text
 textLength = 100;
+
+% readLength: Input token length
 readLength = 6;
+
+% writeLength: Output token length
 writeLength = 1;
+
+% ---------------------------------------------------------------------
+% The training text can be changed in the text.txt file
+% ---------------------------------------------------------------------
+
 
 file = fopen('text.txt');
 
@@ -132,5 +148,5 @@ for i=1:loopLength
     end
 end
 
-outputText
+disp(outputText);
 
