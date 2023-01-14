@@ -1,0 +1,4 @@
+Enter training text in this document.
+
+Please note that some symbols may not be recognized and will be treated as
+normal letters that are part of the word.
